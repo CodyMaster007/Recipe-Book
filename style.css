@@ -259,10 +259,12 @@ h1 {
 	border-bottom: 1px solid black;
 	margin: 16px 0;
 }
-.details-header:hover {
+.header-link:hover {
 	text-decoration: #000 underline;
-	content: "# ";
-
+}
+.header-link:active {
+	text-decoration-color: #5e5e5e;
+	color:#5e5e5e;
 }
 .ingredients-list li {
 	border-bottom: 3px solid #447d751a;
