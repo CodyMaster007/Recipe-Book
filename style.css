@@ -30,7 +30,7 @@ p {
 	font-family: inherit;
 }
 a {
-	color: #0A0A0A;
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -45,8 +45,6 @@ ol, ul {
 
 li {
 	list-style-type: none;
-	margin-left: 20px;
-	margin-bottom: 5px;
 }
 
 h1 {
@@ -56,12 +54,13 @@ h1 {
 .fa-stopwatch, .fa-puzzle-piece, .fa-utensils {
 	font-size: 1.25em;
 } 
+
 /* HOME PAGE */
+
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #FFFAFA;
 	border-bottom: 3px solid black;
 }
 .logo {
@@ -81,7 +80,6 @@ h1 {
 	flex-flow: row wrap;
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #FFFAFA;
 	padding: 20px;
 }
 
@@ -192,6 +190,7 @@ h1 {
 }
 
 /* RECIPE PAGE */
+
 .recipe-info {
 	display: flex;
 	justify-content: start;
@@ -259,6 +258,10 @@ h1 {
 .header-link:active {
 	text-decoration-color: #5e5e5e;
 	color:#5e5e5e;
+}
+.ingredients-list li, .instructions-list li {
+	margin-left: 20px;
+	margin-bottom: 5px;
 }
 .ingredients-list li {
 	border-bottom: 3px solid #447d751a;
