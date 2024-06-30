@@ -251,6 +251,16 @@ h1 {
 	border-bottom: 1px solid black;
 	margin: 16px 0;
 }
+.details-header::before {
+	content: "#";
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.details-header:hover::before {
+	opacity: 1;
+}
 .header-link:hover {
 	text-decoration: #000 underline;
 }
